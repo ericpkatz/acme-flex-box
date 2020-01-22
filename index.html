@@ -1,6 +1,7 @@
 <html>
   <head>
     <link rel='stylesheet' href='styles.css' />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
   </head>
   <body>
     <nav>
@@ -9,5 +10,32 @@
       <a href='#'>Departments</a>
       <a href='#'>Contact</a>
     </nav>
+
+    <main>
+      <h1>Users</h1>
+
+      <form>
+        <h2>Create A User</h2>
+        <div class='form-group'>
+          <label>First Name</label>
+          <input placeholder='enter first Name'/>
+        </div>
+        <div class='form-group'>
+          <label>Last Name</label>
+          <input placeholder='enter last Name'/>
+        </div>
+        <div class='form-group'>
+          <label>Department</label>
+          <select placeholder='enter last Name'>
+            <option>HR</option>
+            <option>Engineering</option>
+          </select>
+        </div>
+        <div class='button-group'>
+          <button class='primary'>Save</button>
+          <button>Cancel</button>
+        </div>
+      </form>
+    </main>
   </body>
 </html>
