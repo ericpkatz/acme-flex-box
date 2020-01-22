@@ -1,3 +1,6 @@
+*{
+  box-sizing: border-box;
+}
 body {
   font-family: verdana;
   margin: 0;
@@ -63,3 +66,20 @@ button.primary {
   color: white;
 }
 
+#users {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#users > div {
+  margin: 1rem;
+  padding: 1rem;
+  border: solid 1px black;
+  width: calc(100% / 3 - 2rem);
+}
+
+@media (max-width: 600px){
+  #users > div {
+    width: 100%;
+  }
+}
