@@ -1,3 +1,27 @@
 body {
   font-family: verdana;
+  margin: 0;
 }
+
+nav {
+  padding: 1rem;
+  background-color: dodgerBlue;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+nav a:first-child {
+  font-size: 1.5rem;
+}
+
+a.selected {
+  font-weight: bold;
+}
+
+
